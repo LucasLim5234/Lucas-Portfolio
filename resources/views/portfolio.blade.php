@@ -133,7 +133,7 @@
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-bold text-white">KEra Kpop Explorer</h3>
+                            <a href="http://76.13.213.42:8081" class="underline decoration-white-500/50 hover:decoration-white-500"><h3 class="text-xl font-bold text-white">KEra Kpop Explorer</h3></a>
                             <div class="flex gap-3 text-slate-400">
                                 <a href="https://github.com/LucasLim5234/KEra-Kpop-Explorer.git"
                                     class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
@@ -166,7 +166,7 @@
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-bold text-white">JobLinker</h3>
+                            <a href="http://76.13.213.42:8080" class="underline decoration-white-500/50 hover:decoration-white-500"><h3 class="text-xl font-bold text-white">JobLinker</h3></a>
                             <div class="flex gap-3 text-slate-400">
                                 <a href="https://github.com/LucasLim5234/Job-Recruitment-Management-System.git"
                                     class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
@@ -197,7 +197,7 @@
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-bold text-white">My Portfolios</h3>
+                            <a href="http://76.13.213.42/" class="underline decoration-white-500/50 hover:decoration-white-500"><h3 class="text-xl font-bold text-white">My Portfolios</h3></a>
                             <div class="flex gap-3 text-slate-400">
                                 <a href="https://github.com/LucasLim5234/Lucas-Portfolio.git"
                                     class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
