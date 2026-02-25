@@ -89,7 +89,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 @php
                     $skillGroups = [
-                        'Frontend Development' => ['HTML', 'CSS', 'Bootstrap CSS', 'Tailwind CSS', 'JS', 'React'],
+                        'Frontend Development' => ['HTML', 'CSS', 'Bootstrap CSS', 'Tailwind CSS', 'JavaScript', 'React'],
                         'Backend & APIs' => ['PHP', 'Laravel', 'Java', 'SpringBoot', 'C#', 'ASP.NET', 'REST APIs'],
                         'Database Management' => ['MySQL', 'PostgreSQL'],
                     ];
@@ -228,7 +228,7 @@
             <p class="text-slate-400 mb-8">Ready to bring value to your engineering team at the start of March 2026.
             </p>
             <div class="flex justify-center gap-6 text-2xl mb-8">
-                <a href="https://www.linkedin.com/in/lucas-lim-99a642395/" class="hover:text-indigo-400 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/eng-seng-lim-4293a63b3" class="hover:text-indigo-400 transition"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/LucasLim5234" class="hover:text-indigo-400 transition"><i class="fab fa-github"></i></a>
                 <a href="mailto:5234.lucaslim@gmail.com" class="hover:text-indigo-400 transition"><i class="fas fa-envelope"></i></a>
             </div>
