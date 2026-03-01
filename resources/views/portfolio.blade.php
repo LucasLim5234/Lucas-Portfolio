@@ -54,7 +54,7 @@
             <div class="flex-1 text-center md:text-left">
                 <h1 class="text-4xl md:text-6xl font-extrabold mb-4 gradient-text">Mastering the Full-Stack</h1>
                 <p class="text-lg text-slate-400 mb-6 leading-relaxed">
-                    I am an enthusiast full-stack web developer pursuing a
+                    I am an enthusiast full-stack web & mobile developer pursuing a
                     <strong class="text-white">Bachelor's of Computer Science (Software Engineering) with Honours at
                         UMPSA</strong>.
                     With a current <strong class="text-white">CGPA of 3.76</strong>, I bridge the gap between robust
@@ -89,9 +89,18 @@
             <div class="grid md:grid-cols-3 gap-8">
                 @php
                     $skillGroups = [
-                        'Frontend Development' => ['HTML', 'CSS', 'Bootstrap CSS', 'Tailwind CSS', 'JavaScript', 'React'],
+                        'Frontend Development' => [
+                            'HTML',
+                            'CSS',
+                            'Bootstrap CSS',
+                            'Tailwind CSS',
+                            'JavaScript',
+                            'React',
+                            'Dart',
+                            'Flutter',
+                        ],
                         'Backend & APIs' => ['PHP', 'Laravel', 'Java', 'SpringBoot', 'C#', 'ASP.NET', 'REST APIs'],
-                        'Database Management' => ['MySQL', 'PostgreSQL'],
+                        'Database Management' => ['MySQL', 'PostgreSQL', 'SQLite', 'Firebase', 'Supabase'],
                     ];
                     $icons = [
                         'Frontend Development' => 'fa-code',
@@ -133,7 +142,10 @@
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
-                            <a href="http://76.13.213.42:8081" class="underline decoration-white-500/50 hover:decoration-white-500"><h3 class="text-xl font-bold text-white">KEra Kpop Explorer</h3></a>
+                            <a href="http://76.13.213.42:8081"
+                                class="underline decoration-white-500/50 hover:decoration-white-500">
+                                <h3 class="text-xl font-bold text-white">KEra Kpop Explorer</h3>
+                            </a>
                             <div class="flex gap-3 text-slate-400">
                                 <a href="https://github.com/LucasLim5234/KEra-Kpop-Explorer.git"
                                     class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
@@ -166,7 +178,10 @@
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
-                            <a href="http://76.13.213.42:8080" class="underline decoration-white-500/50 hover:decoration-white-500"><h3 class="text-xl font-bold text-white">JobLinker</h3></a>
+                            <a href="http://76.13.213.42:8080"
+                                class="underline decoration-white-500/50 hover:decoration-white-500">
+                                <h3 class="text-xl font-bold text-white">JobLinker</h3>
+                            </a>
                             <div class="flex gap-3 text-slate-400">
                                 <a href="https://github.com/LucasLim5234/Job-Recruitment-Management-System.git"
                                     class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
@@ -197,7 +212,10 @@
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
-                            <a href="http://76.13.213.42/" class="underline decoration-white-500/50 hover:decoration-white-500"><h3 class="text-xl font-bold text-white">My Portfolios</h3></a>
+                            <a href="http://76.13.213.42/"
+                                class="underline decoration-white-500/50 hover:decoration-white-500">
+                                <h3 class="text-xl font-bold text-white">My Portfolios</h3>
+                            </a>
                             <div class="flex gap-3 text-slate-400">
                                 <a href="https://github.com/LucasLim5234/Lucas-Portfolio.git"
                                     class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
@@ -218,6 +236,39 @@
                         </div>
                     </div>
                 </div>
+                {{-- Mobile First Project --}}
+                <div
+                    class="group bg-slate-800/40 border border-slate-800 rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all duration-300">
+                    <div class="h-48 bg-slate-700 relative overflow-hidden">
+                        <img src="{{ asset('assets/images/bgaThumbnail.jpg') }}"
+                            alt="Badminton Gesture Analysis Project"
+                            class="w-full h-full object-contain opacity-60 group-hover:opacity-100 group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-white">Badminton Gesture Analysis Mobile Application
+                            </h3>
+                            <div class="flex gap-3 text-slate-400">
+                                <a href="https://github.com/LucasLim5234/BadmintonGestureAnalysis.git"
+                                    class="hover:text-indigo-400"><i class="fab fa-github"></i></a>
+                                {{-- <a href="https://github.com/LucasLim5234/BadmintonGestureAnalysis.git"
+                                    class="hover:text-indigo-400"><i class="fas fa-external-link-alt text-sm"></i></a> --}}
+                            </div>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-4 leading-relaxed text-justify">
+                            Badminton Gesture Analysis is a mobile application designed to demonstrate a mobile-first
+                            approach to analyzing badminton gestures using machine learning, particularly CNN.
+                            The app allows users to record and analyze their badminton swings, providing insights and
+                            feedback to help them self-evaluate and improve their playing technique. The backend is
+                            powered by Supabase which handles user authentication, data storage and real-time updates.
+                        </p>
+                        <div class="flex gap-2">
+                            <span class="text-[10px] font-bold uppercase tracking-wider text-indigo-400">Flutter</span>
+                            <span
+                                class="text-[10px] font-bold uppercase tracking-wider text-purple-400">Supabase</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -228,9 +279,12 @@
             <p class="text-slate-400 mb-8">Ready to bring value to your engineering team at the start of March 2026.
             </p>
             <div class="flex justify-center gap-6 text-2xl mb-8">
-                <a href="https://www.linkedin.com/in/eng-seng-lim-4293a63b3" class="hover:text-indigo-400 transition"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/LucasLim5234" class="hover:text-indigo-400 transition"><i class="fab fa-github"></i></a>
-                <a href="mailto:5234.lucaslim@gmail.com" class="hover:text-indigo-400 transition"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/eng-seng-lim-4293a63b3"
+                    class="hover:text-indigo-400 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/LucasLim5234" class="hover:text-indigo-400 transition"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:5234.lucaslim@gmail.com" class="hover:text-indigo-400 transition"><i
+                        class="fas fa-envelope"></i></a>
             </div>
             <p class="text-sm text-slate-500 border-t border-slate-800 pt-8">
                 &copy; 2026 Lucas's Portfolio. Built with Laravel & Tailwind CSS.
